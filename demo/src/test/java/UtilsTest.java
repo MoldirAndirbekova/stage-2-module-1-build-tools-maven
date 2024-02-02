@@ -10,7 +10,6 @@ import static org.junit.jupiter.api.Assertions.*;
 public class UtilsTest {
     @Test
     public void testForPositiveNumbers_returnsTrue() {
-        /*Utils utils = new Utils();*/
         List<String> list = new ArrayList<>();
         list.add("10");
         list.add("20");
@@ -19,7 +18,6 @@ public class UtilsTest {
 
     @Test
     public void testForNegativeNumbers_returnsFalse() {
-       /* Utils utils = new Utils();*/
         List<String> list = new ArrayList<>();
         list.add("-10");
         list.add("-20");
@@ -28,7 +26,6 @@ public class UtilsTest {
 
     @Test
     public void testForNegativeAndPositiveNumbers_returnsFalse() {
-        /*Utils utils = new Utils();*/
         List<String> list = new ArrayList<>();
         list.add("10");
         list.add("-20");
