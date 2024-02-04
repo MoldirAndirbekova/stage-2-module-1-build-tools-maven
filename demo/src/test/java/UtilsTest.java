@@ -20,8 +20,8 @@ public class UtilsTest {
     @Test
     public void testForNegativeNumbers_returnsFalse() {
         List<String> list = new ArrayList<>();
-        list.add("-10");
-        list.add("-20");
+        list.add("-30");
+        list.add("-40");
 
         assertFalse(Utils.isAllPositiveNumbers(list));
     }

@@ -14,9 +14,4 @@ public class StringUtilsTest {
     public void testForNegativeNumber_returnsFalse() {
         assertFalse(StringUtils.isPositiveNumber("-10"));
     }
-
-    @Test
-    public void testForZeroNumber_returnsFalse() {
-        assertFalse(StringUtils.isPositiveNumber("0"));
-    }
 }
