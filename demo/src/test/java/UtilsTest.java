@@ -13,6 +13,7 @@ public class UtilsTest {
         List<String> list = new ArrayList<>();
         list.add("10");
         list.add("20");
+
         assertTrue(Utils.isAllPositiveNumbers(list));
     }
 
@@ -21,6 +22,7 @@ public class UtilsTest {
         List<String> list = new ArrayList<>();
         list.add("-10");
         list.add("-20");
+
         assertFalse(Utils.isAllPositiveNumbers(list));
     }
 
@@ -29,6 +31,7 @@ public class UtilsTest {
         List<String> list = new ArrayList<>();
         list.add("10");
         list.add("-20");
+
         assertFalse(Utils.isAllPositiveNumbers(list));
     }
 }

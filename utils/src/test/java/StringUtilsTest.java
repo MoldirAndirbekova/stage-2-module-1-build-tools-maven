@@ -6,19 +6,17 @@ import static org.junit.jupiter.api.Assertions.*;
 public class StringUtilsTest {
     @Test
     public void testForPositiveNumber_returnsTrue() {
-        StringUtils stringUtils = new StringUtils();
-        assertTrue(stringUtils.isPositiveNumber("10"));
+
+        assertTrue(StringUtils.isPositiveNumber("10"));
     }
 
     @Test
     public void testForNegativeNumber_returnsFalse() {
-        StringUtils stringUtils = new StringUtils();
-        assertFalse(stringUtils.isPositiveNumber("-10"));
+        assertFalse(StringUtils.isPositiveNumber("-10"));
     }
 
     @Test
-    public void testForZeroNumber_returnsTrue() {
-        StringUtils stringUtils = new StringUtils();
-        assertFalse(stringUtils.isPositiveNumber("0"));
+    public void testForZeroNumber_returnsFalse() {
+        assertFalse(StringUtils.isPositiveNumber("0"));
     }
 }
